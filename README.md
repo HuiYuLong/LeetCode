@@ -1,5 +1,5 @@
 # LeetCode
 
-|#    |Title           |Solution|Difficulty|Topic|
-|:---:|:--------------:|
-| 053 |Maximum Subarray|
+|#    |Title           |Language|Difficulty|Data Structure|Solution|
+|:---:|:--------------:|:------:|:--------:|:------------:|:------:|
+| 053 |Maximum Subarray|C++     | Easy     |Array         |DP      |
