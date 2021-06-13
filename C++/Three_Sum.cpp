@@ -9,10 +9,12 @@ public:
             int end = nums.size()-1;
             if(i > 1 && nums[i] == nums[i-1]) { start = i-1; }
             while(start < i && end > i) {
+                // Check duplicates from left
                 if(start > 0 && nums[start] == nums[start-1]) {
                     start++;
                     continue;
                 }
+                // Check duplicates from right
                 if(end < nums.size()-1 && nums[end] == nums[end+1]) {
                     end--;
                     continue;
